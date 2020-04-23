@@ -1,5 +1,6 @@
 # 설명
 ## 마우스의 이동방향에 따라 랜덤한 색깔의 원을 출력하며 속도에 따라 크기가 달라집니다.
+### 함수 variableEllipse로 마우스의 이동방향에 출력하며 속도에 따라 크기가 달라지게합니다. 또한 fill명령어안에 random 함수를 사용해 색깔을 랜덤하게 지정합니다.  
 ```
 void setup() {
   size(640, 360);
@@ -9,7 +10,6 @@ void setup() {
 int a;
 float ro;
 void draw() {
-  fill(255);
     fill(random(0,255),random(0,255),random(0,255));
     variableEllipse(mouseX, mouseY, pmouseX, pmouseY);
 }
