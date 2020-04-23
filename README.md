@@ -1,2 +1,2 @@
-# Sixth-week-assignment
-Sixth-week-assignment
+# 6주차 과제입니다.
+## 지금까지 배웠던 지식을 바탕으로 새로 프로그래밍을 하며 복습하는 시간이 되었습니다. 감사합니다.
