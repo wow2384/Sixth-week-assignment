@@ -1,5 +1,5 @@
 # 설명
-## pshape와 vertex를 이용해 육각형을 만들었습니다.
+### biginshape안에 vertex명령어를 사용해 좌표를 지정해 육각형을 만들어냅니다. 마지막으로 endShape를 이용해 닫습니다.
 ```
 void setup(){
   size(500,500);
